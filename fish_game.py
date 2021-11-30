@@ -17,3 +17,18 @@
 #         print(b[0],b[1],b[2])
 #         print(i)
 print("Hello World")
+print("Ham tinh tong hai so nguyen duong: ")
+
+
+def Tong(a, b):
+    return a + b
+
+a = int(input("Nhap vao so nguyen a: "))
+b = int(input("Nhap vao so nguyen b: "))
+while a < 0:
+    a = int(input("Nhap vao so nguyen a: "))
+while b < 0:
+    a = int(input("Nhap vao so nguyen b: "))
+
+
+print(f"Tong cua hai so {a}+{n}={Tong(a,b)}")
