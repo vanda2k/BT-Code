@@ -31,4 +31,17 @@ while b < 0:
     a = int(input("Nhap vao so nguyen b: "))
 
 
-print(f"Tong cua hai so {a}+{n}={Tong(a,b)}")
+print(f"Tong cua hai so {a}+{b}={Tong(a,b)}")
+
+class Student:
+    def __init__(self, id, name, gender, date):
+        self.id = id
+        self.name = name
+        self.gender = gender
+        self.date = date
+
+    def show_info(self):
+        print(f"{self.id} - {self.name} - {self.gender} - {self.date}")
+
+student1 = Student(685102014, "Do Anh Van", "Nam","26/8/2000")
+student1.show_info()
