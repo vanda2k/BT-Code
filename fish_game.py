@@ -16,8 +16,4 @@
 #     if (int(b[0])**3 + int(b[1])**3 + int(b[2])**3) == i:
 #         print(b[0],b[1],b[2])
 #         print(i)
-
-for i in range(1, 10, 2):
-    print(i, end=" ")
-
-    
+print("Hello World")
