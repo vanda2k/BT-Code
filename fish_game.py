@@ -45,3 +45,5 @@ class Student:
 
 student1 = Student(685102014, "Do Anh Van", "Nam","26/8/2000")
 student1.show_info()
+
+print("Hello world")
